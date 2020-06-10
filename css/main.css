@@ -237,7 +237,9 @@
   
   /* Hero Area */
   
-  .hero-area {
+  .hero-area {	
+    background: url('img/hero.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
