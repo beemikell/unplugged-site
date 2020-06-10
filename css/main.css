@@ -84,84 +84,111 @@ textarea {
 }
 
 /* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+   .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-   /*****BODY*****/
-
-body {
-
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
 }
 
-h1 {
+/* -------------------- Base Header - Footer Styles -------------------- */
 
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-p {
-
-}
-
-/*****HEADER*****/
-
-header {
+header,
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
-nav ul {
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
-nav li {
-
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
-nav a {
-
+footer {
+  flex-direction: column;
 }
 
-
-/*****MAIN-HOME PAGE*****/
-
-main {
-
+footer p {
+  margin: 0;
 }
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* Hero Area */
 
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.hero-area img {
-
-}
+/* Aside */
 
 aside {
   display: flex;
@@ -170,70 +197,60 @@ aside {
   flex-flow: row wrap;
 }
 
-.form-description {
-
-}
-
-.form {
-
-}
+/* Features */
 
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.features-items {
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-main .content-wrapper {
-
+.features p {
+  margin: 0;
 }
 
-main img {
-
-}
-
-article {
-
-}
+/* Reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.reviews img {
-
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
-/*****MAIN-ABOUT PAGE*****/
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.mission-content {
-
-}
-
-.map {
-
-}
-
-figure {
-
 }
 
 .contact-section {
@@ -243,27 +260,13 @@ figure {
   flex-flow: row wrap;
 }
 
-.column-1 {
-
+.contact-content p {
+  margin: 0;
 }
 
-.column-2 {
-
-}
-
-
-/*****MAIN-FAQ PAGE*****/
-
-.frequently-asked-questions {
-
-}
-
-.faq-content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
 .faq {
   display: flex;
@@ -271,50 +274,21 @@ figure {
   align-items: center;
   flex-flow: row wrap;
 }
- 
-.faq-column-1 {
 
-}
-
-.faq-column-2 {
-
-}
-
-/*****FOOTER*****/
-
-footer {
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-footer .content-wrapper {
-
+.faq h2 {
+  margin-bottom: 40px;
 }
 
-.footer-content {
-
-}
-
-address {
-
-}
-
-.contact {
-
-}
-
-.social {
-
-}
-
-.social-icons {
-
-}
-
-.copyright {
-
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
